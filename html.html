@@ -1,0 +1,67 @@
+
+
+<html>
+
+
+<body style="background-color:pink;">
+<div>
+
+
+
+<p style="font-size:50px;color:blue;"> <b>48 Hour Weather Forecast(1 hour interval)</b></p>
+<form method="GET" action="forcast.php" name="f1" id="f1">
+
+City:<input type="text" name="City" id="City">
+
+<input type="submit" name="ok" value="ok">
+
+</form>
+</div>
+
+<div>
+
+<p style="font-size:50px;color:blue;"> <b>5 Day Weather Forecast(3 hour interval)</b></p>
+<form method="GET" action="forcastThree.php" name="f3"id="f3">
+Country:<input type="text"name="Country" id="Country">
+City:<input type="text"name="City"id="City">
+
+<input type="submit"name="ok" value="ok">
+
+</form>
+</div>
+
+
+<div>
+<p style="font-size:50px;color:blue;"> <b>Current Weather</b></p>
+
+<form method="GET" action="current.php" name="f2" id="f2">
+Country:<input type="text" name="Country" id="Country">
+City:<input type="text" name="City" id="City">
+
+<input type="submit" name="ok" value="ok">
+</form>
+</div>
+
+<div>
+<p style="font-size:50px;color:blue;"> <b>16 Day Weather Forecast (1 day interval)</b></p>
+
+<form method="GET" action="forcastoneinterval.php" name="f4" id="f4">
+Country:<input type="text"name="Country"id="Country">
+City:<input type="text" name="City" id="City">
+<input type="submit" name="ok" value="ok">
+</form>
+</div>
+
+<div>
+<p style="font-size:50px;color:blue;"> <b>Historical Weather (hourly)</b></p>
+<form method="GET" action="historical.php"name="f5" id="f5">
+Country:<input type="text"name="Country"id="Country">
+City:<input type="text" name="City" id="City">
+StartDate:<input type="text" name="StartDate" id="StartDate">
+EndDate:<input type="text" name="EndDate" id="EndDate">
+<input type="submit" name="ok"value="ok">
+</form>
+
+</div>
+
+</html>
